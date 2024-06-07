@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Marketplace</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#profile">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="search">
+            <input type="text" id="searchInput" placeholder="Search products...">
+            <button onclick="searchProducts()">Search</button>
+        </section>
+
+        <section id="products">
+            <!-- Product listings will go here -->
+        </section>
+
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <div id="cartItems">
+                <!-- Cart items will go here -->
+            </div>
+            <button onclick="checkout()">Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Online Marketplace</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
